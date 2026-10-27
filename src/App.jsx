@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const APK_URL = "/ringer.zip";
+const APK_URL = `${import.meta.env.BASE_URL}ringer.zip`;
 const VERSION = "1.0.0";
 
 const FEATURES = [
